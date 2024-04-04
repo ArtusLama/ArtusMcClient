@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "artusclient",
+  "version": "${version}",
+  "name": "ArtusMcClient",
+  "description": "This is a client I coded for myself :D",
+  "authors": [
+    "ArtusDev"
+  ],
+  "contact": {
+    "website": "https://artuslama.github.io",
+    "repo": "https://github.com/ArtusLama/ArtusMcClient"
+  },
+  "license": "MIT",
+  "icon": "assets/artusclient/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.artus.artusclient.client.ArtusClient"
+    ]
+  },
+  "mixins": [
+    "artusclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
