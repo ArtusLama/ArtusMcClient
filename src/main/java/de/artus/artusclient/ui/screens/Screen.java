@@ -1,4 +1,4 @@
-package de.artus.artusclient.utils.screens;
+package de.artus.artusclient.ui.screens;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -8,7 +8,7 @@ import net.minecraft.client.MinecraftClient;
 public enum Screen {
 
 
-    //CLIENT_MENU(ClientMenuScreen.class)
+    CLIENT_MENU(ClientMenuScreen.class)
     ;
 
     @Getter
