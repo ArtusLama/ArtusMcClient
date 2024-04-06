@@ -1,5 +1,6 @@
 package de.artus.artusclient.utils.keybinds;
 
+import de.artus.artusclient.utils.Texts;
 import lombok.Getter;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.minecraft.client.option.KeyBinding;
@@ -19,10 +20,10 @@ public class KeyBinds {
         registerKey(
                 KeyBind.OPEN_CLIENT_MENU,
                 new KeyBinding(
-                        "key.artusclient.open_client_menu",
+                        Texts.KEYSTROKE_OPEN_CLIENT_MENU.getTranslationKey(),
                         InputUtil.Type.KEYSYM,
                         GLFW.GLFW_KEY_RIGHT_SHIFT,
-                        "category.artusclient.keybindings"
+                        Texts.KEYSTROKE_CATEGORY.getTranslationKey()
                 )
         );
 
